@@ -33,7 +33,7 @@
 
 
   <GeneDef>
-    <defName>ISA_wings</defName>
+    <defName>ISA_Wings</defName>
     <label>wings</label>
     <iconPath>UI/Icons/Genes/Gene_jaw</iconPath>
     <description>Carriers of this gene have large leathery wings slowing them down.</description>
