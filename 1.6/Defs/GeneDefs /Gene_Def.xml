@@ -2,27 +2,6 @@
 <Defs>
 
   <GeneDef>
-    <defName>DV_ExtendedMemory</defName>
-    <label>extended memory</label>
-    <labelShortAdj>long memory</labelShortAdj>
-    <description>Carriers of this gene have an enhanced temporal lobe. This allows them to remember both good and bad events for longer, which makes them more prone to holding grudges; it also generally lowers their rate of skill loss.</description>
-    <iconPath>UI/Genes/Gene_ExtendedMemory</iconPath>
-    <displayOrderInCategory>30</displayOrderInCategory>
-    <biostatMet>-1</biostatMet>
-    <biostatCpx>1</biostatCpx>
-    <customEffectDescriptions>
-      <li>Lowered skill loss rate and moodlet duration boosted by 25%.</li>
-    </customEffectDescriptions>
-    <geneClass>StonebornXenotype.StonebornMemoryGene</geneClass>
-    <modExtensions>
-      <li Class="StonebornXenotype.StonebornMemoryModExtension">
-        <skillLossFactor>0.55</skillLossFactor>
-        <thoughtDurationFactor>1.25</thoughtDurationFactor>
-      </li>
-    </modExtensions>
-  </GeneDef>
-
-  <GeneDef>
     <defName>ISA_Farsighted</defName>
     <label>farsighted</label>
     <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
@@ -39,5 +18,30 @@
     </exclusionTags>
   </GeneDef>
 
-  
+  <GeneDef>
+    <defName>ISA_Beak</defName>
+    <label>beak</label>
+    <iconPath>UI/Icons/Genes/Gene_jaw</iconPath>
+    <description>Carriers of this gene have a beak instead of a human jaw. Their eating speed is increased since they swallow without chewing.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <statFactors>
+      <EatingSpeed>1.25</EatingSpeed>
+    </statFactors>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>  
+
+
+  <GeneDef>
+    <defName>ISA_wings</defName>
+    <label>wings</label>
+    <iconPath>UI/Icons/Genes/Gene_jaw</iconPath>
+    <description>Carriers of this gene have large leathery wings slowing them down.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <statFactors>
+      <MoveSpeed>-0.1</MoveSpeed>
+    </statFactors>
+    <biostatMet>-1</biostatMet>
+  </GeneDef>  
 </Defs>
