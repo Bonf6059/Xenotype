@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<GeneDef>
+    <defName>ISA_Shortflight</defName>
+    <label>short flight</label>
+    <description>Carriers of this gene can use their wings to fly a short distance.</description>
+	<iconPath>Things/Abilities/ISA_FlightAbility</iconPath>
+    <displayCategory>Ability</displayCategory>
+    <abilities>
+      <li>ISA_ShortFlightXenoCrow</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>ISA_ShortFlightXenoCrow</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatMet>-1</biostatMet>
+    <biostatCpx>1</biostatCpx>
+  </GeneDef>
+
+
+	<AbilityDef>
+		<defName>ISA_ShortFlightXenoCrow</defName>
+		<label>short flight</label>
+		<description>Use wings to fly a short distance.</description>
+		<iconPath>Things/Abilities/ISA_FlightAbility</iconPath>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityJump</verbClass>
+			<label>use wings</label>
+			<violent>false</violent>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<warmupTime>0.5</warmupTime>
+			<range>18</range>
+			<requireLineOfSight>true</requireLineOfSight>
+			<flyWithCarriedThing>true</flyWithCarriedThing>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+			<soundLanding>Longjump_Land</soundLanding>
+		</verbProperties>
+		<cooldownTicksRange>2500</cooldownTicksRange>
+	</AbilityDef>
+	
+</Defs>
