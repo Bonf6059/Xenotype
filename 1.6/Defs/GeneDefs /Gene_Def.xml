@@ -23,7 +23,7 @@
   </GeneDef>
 
   <GeneDef>
-    <defName>Farsighted</defName>
+    <defName>ISA_Farsighted</defName>
     <label>farsighted</label>
     <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
     <description>Carriers of this gene see better at a distance. Their shooting accuracy at long ranges is increased.</description>
