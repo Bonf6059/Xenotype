@@ -21,5 +21,23 @@
       </li>
     </modExtensions>
   </GeneDef>
+
+  <GeneDef>
+    <defName>Farsighted</defName>
+    <label>farsighted</label>
+    <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
+    <description>Carriers of this gene see better at a distance. Their shooting accuracy at long ranges is increased.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <statFactors>
+      <ShootingAccuracyFactor_Long>1.25</ShootingAccuracyFactor_Long>
+      <ShootingAccuracyFactor_Medium>1.15</ShootingAccuracyFactor_Medium>
+    </statFactors>
+    <biostatMet>2</biostatMet>
+    <exclusionTags>
+      <li>ShootingAccuracy</li>
+    </exclusionTags>
+  </GeneDef>
+
   
 </Defs>
