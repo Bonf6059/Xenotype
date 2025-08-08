@@ -23,6 +23,11 @@
 	  <li>Libido_Low</li>
 	  <li>RobustDigestion</li>
 	  <li>MeleeDamage_Strong</li>
+      <li>AptitudeStrong_Intellectual</li>
+      <li>Immunity_Weak</li>
+      <li>VoiceRoar</li>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
 	  <li>ISA_Shortflight</li>
 	  <li>ISA_Farsighted</li>
 
