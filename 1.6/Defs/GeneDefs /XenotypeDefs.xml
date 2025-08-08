@@ -13,16 +13,15 @@
     <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
 	  <li>MoveSpeed_Slow</li>
-	  <li>MinTemp_SmallDecrease</li>
-	  <li>Nearsighted</li>
-	  <li>MaxTemp_SmallDecrease</li>
-	  <li>AptitudePoor_Animals</li>
+	  <li>MinTemp_SmallIncrease</li>
+	  <li>MaxTemp_SmallIncrease</li>
+	  <li>AptitudePoor_Plants</li>
 	  <li>AptitudePoor_Mining</li>
 	  <li>Body_Standard</li>
-	  <li>Body_Hulk</li>
+	  <li>Body_Thin</li>
 	  <li>PsychicAbility_Deaf</li>
-	  <li>Robust</li>
 	  <li>Libido_Low</li>
+	  <li>RobustDigestion</li>
 	  <li>ISA_Shortflight</li>
     </genes>
   </XenotypeDef>
