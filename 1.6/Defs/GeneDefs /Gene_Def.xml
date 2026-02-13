@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <GeneDef>
-    <defName>ISA_Farsighted</defName>
-    <label>farsighted</label>
-    <iconPath>UI/Icons/Genes/Gene_Nearsighted</iconPath>
-    <description>Carriers of this gene see better at a distance. Their shooting accuracy at long ranges is increased.</description>
-    <displayCategory>Miscellaneous</displayCategory>
-    <displayOrderInCategory>50</displayOrderInCategory>
-    <statFactors>
-      <ShootingAccuracyFactor_Long>1.25</ShootingAccuracyFactor_Long>
-      <ShootingAccuracyFactor_Medium>1.15</ShootingAccuracyFactor_Medium>
-    </statFactors>
-    <biostatMet>-2</biostatMet>
-    <exclusionTags>
-      <li>ShootingAccuracy</li>
-    </exclusionTags>
+  <GeneDef ParentName="GenePsychicAbilityBase">
+    <defName>ISA_PsychicAbility_Latent</defName>
+    <label>latent psychic</label> 
+    <labelShortAdj>psy-latent</labelShortAdj>
+    <description>Carriers of this gene are more adept to psy-power than average but are not note worthy.</description>
+    <iconPath>UI/Icons/Genes/Gene_LatentPsychicAbility</iconPath>
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <statOffsets>
+      <PsychicSensitivity>0.1</PsychicSensitivity>
+      <MeditationFocusGain>0.1</MeditationFocusGain>
+      <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+    </statOffsets>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>psy</symbol></li>
+        <li><symbol>senso</symbol></li>
+        <li><symbol>sensi</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
   </GeneDef>
 
   <GeneDef>
-    <defName>ISA_Beak</defName>
-    <label>beak</label>
-    <iconPath>UI/Icons/Genes/Gene_jaw</iconPath>
-    <description>Carriers of this gene have a beak instead of a human jaw. Their eating speed is increased since they swallow without chewing.</description>
+    <defName>SlowDigestion</defName>
+    <label>slow digestion</label>
+    <description>Carriers of this gene have their digestion slightly slowed down. This lets them eat less often and has the side accidental side effect of making them immune to food poisoning even after eating rotten food.</description>
+    <iconPath>UI/Icons/Genes/Gene_SlowDigestion</iconPath>
+    <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+    <biostatMet>1</biostatMet>
     <displayCategory>Miscellaneous</displayCategory>
-    <displayOrderInCategory>50</displayOrderInCategory>
-    <statFactors>
-      <EatingSpeed>1.25</EatingSpeed>
-    </statFactors>
-    <biostatMet>-1</biostatMet>
-  </GeneDef>  
-
-
-  <GeneDef>
-    <defName>ISA_Wings</defName>
-    <label>wings</label>
-    <iconPath>UI/Icons/Genes/Gene_jaw</iconPath>
-    <description>Carriers of this gene have large leathery wings slowing them down.</description>
-    <displayCategory>Miscellaneous</displayCategory>
-    <displayOrderInCategory>50</displayOrderInCategory>
-    <statFactors>
-      <MoveSpeed>-0.1</MoveSpeed>
-    </statFactors>
-    <biostatMet>-1</biostatMet>
-  </GeneDef>  
+    <displayOrderInCategory>9</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dura</symbol></li>
+        <li><symbol>eat</symbol></li>
+        <li><symbol>feed</symbol></li>
+        <li><symbol>cram</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>vore</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
 </Defs>
