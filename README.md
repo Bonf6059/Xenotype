@@ -32,4 +32,4 @@ Con roo's minotaur installato ????
 Ruminant stomach       -2
 Awful cooking          +2
 
-(questo perchè i pawn con ruminant stomach danno precedenza alla paglia rispetto al cibo cotto e dato che sono bravi con le piante loro coltivano la loro cena) 
+(questo perchè i pawn con ruminant stomach danno precedenza alla paglia rispetto al cibo cotto ma mangiano molto di più) 
