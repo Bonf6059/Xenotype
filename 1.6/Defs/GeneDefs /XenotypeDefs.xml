@@ -11,7 +11,6 @@
     <nameMaker>NamerPersonYttakin</nameMaker>
     <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
-      <li>Body_Thin</li>
       <li>Body_Standard</li>
       <!--<li>VoiceRoar</li> 
       <li>Furskin</li>-->
@@ -24,7 +23,7 @@
 	  <li>Libido_High</li>
 	  <li>Beard_NoBeardOnly</li>
 	  <li>AptitudeStrong_Plants</li>
-	  <li>AptitudeStrong_Medical</li>
+	  <li>AptitudeStrong_Medicine</li>
 	  <li>AptitudePoor_Mining</li>
 	  <!--<li>AptitudePoor_Melee</li>-->
 	  <li>ERN_Ears_Goat</li>
