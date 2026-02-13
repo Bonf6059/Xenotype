@@ -5,11 +5,14 @@ The origin of the Myotragus is shrouded in mistery, they are
 Goat like xenotype but that need blood (look at sanguophages)
 vampire goat maybe psychically sensitive
 
+New Genes
+Latent psychic         -1 (it adds a minor boost to psy sensitivity and neural heat or just neural heat)
+Slow digestion         -1 (it reduces hunger rate and lets you digest raw food, not immune to food poisoning)
+
 Vanilla genes
 Hemogenic              +1
 Blood feeder           -1
 Slow wound healing     +2
-psy sensitive          -2
 Superclotting          -1
 Poor mining            +1
 Poor meele             +1
