@@ -10,8 +10,8 @@
     <displayOrderInCategory>20</displayOrderInCategory>
     <statOffsets>
       <PsychicSensitivity>0.1</PsychicSensitivity>
-      <MeditationFocusGain>0.1</MeditationFocusGain>
-      <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+      <MeditationFocusGain>0.05</MeditationFocusGain>
+      <PsychicEntropyRecoveryRate>0.2</PsychicEntropyRecoveryRate>
     </statOffsets>
     <biostatMet>-1</biostatMet>
     <symbolPack>
