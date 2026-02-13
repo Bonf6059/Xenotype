@@ -1,6 +1,6 @@
 # Xenotype
 
-The origin of the NAME is shrouded in mistery, they are  
+The origin of the Myotragus is shrouded in mistery, they are  
 
 Goat like xenotype but that need blood (look at sanguophages)
 vampire goat maybe psychically sensitive
