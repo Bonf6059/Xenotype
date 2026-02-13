@@ -28,7 +28,7 @@ Maleficent horns        0
 Spike horns             0
 Goat tail               0
 
-Con roo's minotaur installato 
+Con roo's minotaur installato ????
 Ruminant stomach       -2
 Awful cooking          +2
 
