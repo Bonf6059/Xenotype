@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-   <XenotypeDef>
-    <defName>XenoCrow</defName>
-    <label>xenocrow</label>
-    <description>After the hardy, grayskinned dirtmoles, came the stoneborn. Ever-bearded and short, they mine and forge minerals with a passion few can top, and are able to raise a bastion or core a mountain in a manner of days. Their relationship with rocks and caves comes at the detriment of agriculture, though. And coming from a culture where indecision can lead to death by tunnel collapse, their social interactions are seen as snobbish and rude.\n\nBut in the passages where the insectoids lay claim, the stoneborne reign with their tunnel fortresses, bearing fierce strength and complex engineering.</description>
-    <descriptionShort>Short, stout and angry, the Stoneborn are highly capable miners and builders used to the deep dank caves. They have naturally bad eyesight and are quite easy to anger. They can perform a loud stonecall to boost their mining and building for a short while, and have naturally longer lifespans. Thanks to their stronger liver they are immune to liver cirrhosis, and can drink as much as they desire.</descriptionShort>
-    <iconPath>UI/Icons/Xenotypes/Other</iconPath>
+  <XenotypeDef>
+    <defName>ISA_Myotragus</defName>
+    <label>myotragus</label>
+    <description>Myotragus descend from a lost civilization of nomadic healers. They used to live in the desest forests and they were so rare to find that it sparked many legends about their abilities. With the passing years and the growing number of factions, they slowly got integrated with the general populations willingly or by force.\n\nSince they migrated far from their beloved forests, they can be commonly found as healers or farmers as a way to stay in contact with their roots.</description>
+    <iconPath>UI/Icons/Xenotypes/Myotragus</iconPath>
     <inheritable>true</inheritable>
-    <combatPowerFactor>1</combatPowerFactor>
+    <!--<combatPowerFactor>1.3</combatPowerFactor> -->
     <nameMaker>NamerPersonYttakin</nameMaker>
     <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
-	  <li>MinTemp_SmallIncrease</li>
-	  <li>MaxTemp_SmallIncrease</li>
-	  <li>AptitudeTerrible_Plants</li>
-	  <li>AptitudeTerrible_Mining</li>
-	  <li>Body_Standard</li>
-	  <li>Body_Thin</li>
-	  <li>Libido_Low</li>
-	  <li>RobustDigestion</li>
-	  <li>MeleeDamage_Strong</li>
-      <li>AptitudeStrong_Intellectual</li>
-      <li>AptitudeStrong_Medicine</li>
-      <li>Immunity_Weak</li>
-      <li>VoiceRoar</li>
-      <li>Hair_BaldOnly</li>
-      <li>Beard_NoBeardOnly</li>
-	  <li>ISA_Shortflight</li>
-	  <li>ISA_Farsighted</li>
-	  <li>ISA_Beak</li>
-	  <li>ISA_Wings</li>
-    </genes>
+      <li>Body_Thin</li>
+      <li>Body_Standard</li>
+      <!--<li>VoiceRoar</li> 
+      <li>Furskin</li>-->
+	  <li>ISA_PsychicAbility_Latent</li>
+	  <li>ISA_SlowDigestion</li>
+      <li>WoundHealing_Slow</li>
+      <li>Hemogenic</li>
+      <li>Bloodfeeder</li>
+	  <li>Superclotting</li>
+	  <li>Libido_High</li>
+	  <li>Beard_NoBeardOnly</li>
+	  <li>AptitudeStrong_Plants</li>
+	  <li>AptitudeStrong_Medical</li>
+	  <li>AptitudePoor_Mining</li>
+	  <!--<li>AptitudePoor_Melee</li>-->
+	  <li>ERN_Ears_Goat</li>
+	  <li>ERN_BlitzoHorns</li>
+	  <li>ERN_CurvedHorns</li>
+	  <li>ERN_FaunHorns</li>
+	  <li>ERN_SpikeHorns</li>
+	  <li>ERN_Tail_Goat</li>
+	  <li MayRequire="tug.Minotaur">AptitudeTerrible_Cooking</li>
+	  <li MayRequire="tug.Minotaur">RBM_RuminantStomach</li>
+	</genes>
   </XenotypeDef>
 
 </Defs>
