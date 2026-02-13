@@ -24,7 +24,7 @@
   </GeneDef>
 
   <GeneDef>
-    <defName>SlowDigestion</defName>
+    <defName>ISA_SlowDigestion</defName>
     <label>slow digestion</label>
     <description>Carriers of this gene have their digestion slightly slowed down. This lets them eat less often and has the side accidental side effect of making them immune to food poisoning even after eating rotten food.</description>
     <iconPath>UI/Icons/Genes/Gene_SlowDigestion</iconPath>
