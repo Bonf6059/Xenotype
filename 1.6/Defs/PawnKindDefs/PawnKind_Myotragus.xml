@@ -23,8 +23,8 @@
 			<li>Apparel_Pants</li>
 		</apparelRequired>
 		<requiredWorkTags>
-			<li>Medicine</li>
-			<li>Plants</li>
+			<li>Caring</li>
+			<li>PlantWork</li>
 		</requiredWorkTags>
 	</PawnKindDef>
 
