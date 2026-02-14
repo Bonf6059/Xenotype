@@ -4,12 +4,19 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
-			<ISA_Myotragus>0.08</ISA_Myotragus>
+			<ISA_Myotragus>0.04</ISA_Myotragus>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<ISA_Myotragus>0.02</ISA_Myotragus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="TribeBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
 			<ISA_Myotragus>0.08</ISA_Myotragus>
 		</value>
