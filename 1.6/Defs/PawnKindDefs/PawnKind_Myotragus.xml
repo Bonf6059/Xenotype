@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef Name="ISA_MyotragusBase" Abstract="True">
+		<label>Myotragus</label>
+		<race>Human</race>
+		<xenotypeSet>
+			<xenotypeChances>
+				<ISA_Myotragus>999</ISA_Myotragus>
+			</xenotypeChances>
+		</xenotypeSet>
+		<useFactionXenotypes>false</useFactionXenotypes>
+		<combatPower>100</combatPower>
+		<backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+		<chemicalAddictionChance>0.08</chemicalAddictionChance>
+		<isFighter>true</isFighter>
+		<chronologicalAgeRange>300~2000</chronologicalAgeRange>
+		<initialResistanceRange>5~60</initialResistanceRange>
+		<initialWillRange>5~15</initialWillRange>
+		<apparelRequired>
+			<li>Apparel_Duster</li>
+			<li>Apparel_CollarShirt</li>
+			<li>Apparel_Pants</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Medicine</li>
+			<li>Plants</li>
+		</requiredWorkTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ISA_MyotragusBase">
+		<defName>ISA_MyotragusPlayer</defName>
+		<weaponMoney>0</weaponMoney>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelColor>(58, 58 ,58)</apparelColor>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<apparelMoney>350~600</apparelMoney>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+	</PawnKindDef>
+
+</Defs>
