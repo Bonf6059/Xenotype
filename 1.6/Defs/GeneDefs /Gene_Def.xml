@@ -7,7 +7,7 @@
     <labelShortAdj>psy-latent</labelShortAdj>
     <description>Carriers of this gene are more adept to psy-power than average but are not note worthy.</description>
     <iconPath>UI/Icons/Genes/Gene_LatentPsychicAbility</iconPath>
-    <displayOrderInCategory>20</displayOrderInCategory>
+    <displayOrderInCategory>19</displayOrderInCategory>
     <statOffsets>
       <PsychicSensitivity>0.1</PsychicSensitivity>
       <MeditationFocusGain>0.05</MeditationFocusGain>
