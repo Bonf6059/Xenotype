@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
-			<ISA_Myotragus>0.08</ISA_Myotragus> <!-- Da portare a 0.04 se si aggiunge lo xeno ai tribe -->
+			<ISA_Myotragus>0.06</ISA_Myotragus> <!-- Da portare a 0.04 se si aggiunge lo xeno ai tribe -->
 		</value>
 	</Operation>
 
@@ -17,11 +17,15 @@
 
 <!-- Per i tribe bisogna fare una patch in cui viene aggiunta tutta la cat. dello xenotype perchè nel base non esiste oppure fare una faction nuova -->
 	
-<!--	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/FactionDef[@Name="TribeBase"]/xenotypeSet/xenotypeChances</xpath>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="TribeBase"]</xpath>
 		<value>
-			<ISA_Myotragus>0.08</ISA_Myotragus>
+			<xenotypeSet>
+				<xenotypeChances>
+					<ISA_Myotragus>0.08</ISA_Myotragus>
+				</xenotypeChances>
+			</xenotypeSet>
 		</value>
-	</Operation> -->
+	</Operation>
 
 </Patch>
