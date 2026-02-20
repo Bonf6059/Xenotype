@@ -74,7 +74,8 @@
 		<statFactors>
 			<ArrestSuccessChance>1.15</ArrestSuccessChance>
 		</statFactors>
-    <biostatCpx>1</biostatCpx>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>intimidat</symbol></li>
