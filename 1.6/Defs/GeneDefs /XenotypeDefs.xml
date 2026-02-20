@@ -37,4 +37,30 @@
 	</genes>
   </XenotypeDef>
 
+  <XenotypeDef>
+    <defName>ISA_RedPanda</defName>
+    <label>redpanda</label>
+    <description>Myotragus descend from a lost civilization of nomadic healers. They used to live in the desest forests and they were so rare to find that it sparked many legends about their abilities. With the passing years and the growing number of factions, they slowly got integrated with the general populations willingly or by force.\n\nSince they migrated far from their beloved forests, they can be commonly found as healers or farmers as a way to stay in contact with their roots.</description>
+    <iconPath>UI/Icons/Xenotypes/Myotragus</iconPath>
+    <inheritable>true</inheritable>
+    <!--<combatPowerFactor>1.3</combatPowerFactor> -->
+    <nameMaker>NamerPersonYttakin</nameMaker>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Body_Standard</li>
+	  <li>ISA_Intimidating</li>
+	  <li>ISA_Nocturnal</li>
+	  <li>MaxTemp_SmallDecrease</li>
+	  <li>UVSensitivity_Mild</li>
+	  <li>DarkVision</li>
+	  <li>AptitudeStrong_Social</li>
+	  <li>AptitudeStrong_Art</li>
+	  <li>AptitudePoor_Plants</li>
+	  <li>MinTemp_SmallDecrease</li>
+	  <li>Beauty_Pretty</li>
+	  <li>ERN_Ears_RedPanda</li>
+	  <li>ERN_Tail_RedPanda</li>
+	</genes>
+  </XenotypeDef>
+
 </Defs>
